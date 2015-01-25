@@ -7,6 +7,7 @@ public class TagCloudImpl implements TagCloud {
 	private List<TagCloudElement> elements = null;
 	public TagCloudImpl() {
 		super();
+		List<TagCloudElement> elements = null;
 	}
 	public TagCloudImpl(List<TagCloudElement> elements, FontSizeComputationStrategy strategy) {
 		this.elements = elements;
